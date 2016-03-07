@@ -1,0 +1,75 @@
+.js_calendar{
+  font-size:80%;
+  font-family:"Verdana", sans-serif;
+}
+.js_calendar td{
+  border:1px solid #ddd;
+  text-align:right;
+  -moz-border-radius:3px;
+       border-radius:3px;
+}
+.js_calendar caption{
+  text-align:left;
+}
+.js_calendar caption div{
+  position:relative;
+}
+.js_calendar caption span{
+  display:block;
+  padding:3px;
+  text-align:center;
+}
+.js_calendar caption a{
+  display:inline-block;
+  position:absolute;
+  background:#eee;
+  text-decoration:none;
+  font-weight:bold;
+  padding:3px;
+  top:0px;
+  -moz-border-radius:4px;
+       border-radius:4px;
+}
+.js_calendar caption a:link,
+.js_calendar caption a:visited{
+  color:#666;
+}
+.js_calendar caption a:hover{
+  color:#f0f;
+}
+.js_calendar caption a.next{
+  right:4px;
+}
+.js_calendar caption a.prev{
+  left:4px;
+}
+.js_calendar td.calendar a{
+  padding:2px;
+  display:block;
+  background:#eee;
+  text-decoration: none;
+  color: #333;
+}
+.js_calendar td.calendar span.blank{
+  padding:2px;
+  display:block;
+}
+.js_calendar th.day0{
+  color:red;
+}
+.js_calendar th.day6{
+  color:blue;
+}
+.js_calendar td.day0 a{
+  background:#fdd;
+}
+.js_calendar td.day6 a{
+  background:#def;
+}
+.js_calendar a:hover{
+  color:#f0f;
+}
+.js_calendar th{
+  font-weight:normal;
+  font-size:90%;
+}
